@@ -9,7 +9,7 @@
         "81a45829-b1da-4ba3-a29e-48b4a7f144f5"
     ],
     "filterType": "GMObject",
-    "folderName": "Mini Draw",
+    "folderName": "MiniDraw",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

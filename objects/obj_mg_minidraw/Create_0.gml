@@ -4,6 +4,10 @@ img_len = ds_list_size(img_dat)
 img_index_max = img_len - 1
 img_index_min = 0
 
+path_x = 0
+path_y = 0
+cursor = undefined
+
 alarm[0] = 5;
 
 

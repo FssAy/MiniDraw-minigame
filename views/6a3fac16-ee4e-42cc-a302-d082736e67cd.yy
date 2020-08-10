@@ -7,7 +7,7 @@
         "bba8eee1-94c9-41d0-a86b-5f1cf79c6da2"
     ],
     "filterType": "GMScript",
-    "folderName": "Mini Draw",
+    "folderName": "MiniDraw",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

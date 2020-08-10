@@ -8,7 +8,7 @@
         "2fbbdf15-6ae3-4b72-9054-73216f538be6"
     ],
     "filterType": "GMSprite",
-    "folderName": "MiniDraws",
+    "folderName": "MiniDraw",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
