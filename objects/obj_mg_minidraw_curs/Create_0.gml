@@ -4,7 +4,8 @@
 #macro run_init -1
 running = run_init;
 
-test = 0
+index = 1
+distance = 0
 
 sprite_index = spr_md_cursor;
 

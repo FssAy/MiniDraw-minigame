@@ -8,10 +8,19 @@ if path_position != 1 {
 		}
 		running = run_inmove
 	}
-	test += path_speed
+	distance += path_speed
+	percentage_cur = distance*100/path_get_length(parent.path)
+	if percentage_cur >= percentage_diff*index{
+		parent.img_current = parent.img_dat[| index]
+		index++
+	}
 	show_debug_message("---------")
 	show_debug_message(path_get_length(parent.path))
-	show_debug_message(test)
+	show_debug_message(distance)
+	show_debug_message(percentage_cur)
+	show_debug_message(percentage_diff*index)
+	show_debug_message(index)
+
 	
 } else {
 	running = run_idle
