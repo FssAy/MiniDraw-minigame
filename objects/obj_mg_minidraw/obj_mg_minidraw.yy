@@ -133,6 +133,20 @@
             "value": "-1",
             "varName": "path",
             "varType": 5
+        },
+        {
+            "id": "79d6e03c-7212-4d84-9221-f024e9194f91",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "100",
+            "varName": "pspeed",
+            "varType": 1
         }
     ],
     "solid": false,

@@ -231,14 +231,6 @@
             }
         },
         {
-            "Key": "81a45829-b1da-4ba3-a29e-48b4a7f144f5",
-            "Value": {
-                "id": "fba696d3-181a-48e7-a35e-af6e51f3e2ad",
-                "resourcePath": "objects\\obj_mg_minidraw_mouse\\obj_mg_minidraw_mouse.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "8427047f-9ef8-4c77-89f3-9c20623d07b6",
             "Value": {
                 "id": "afc39ce1-e6cf-472c-b18c-32d126b34f7b",
