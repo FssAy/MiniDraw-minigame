@@ -14,6 +14,7 @@ if path_position != 1 {
 		parent.img_current = parent.img_dat[| index]
 		index++
 	}
+	minidraw_point_deviation += point_distance(mouse_x, mouse_y, x, y)/20;
 	show_debug_message("---------")
 	show_debug_message(path_get_length(parent.path))
 	show_debug_message(distance)

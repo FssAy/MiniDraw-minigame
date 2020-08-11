@@ -20,7 +20,8 @@ _layer = undefined,
 ;
 if argument_count > 6 _layer = argument[6];
 
-globalvar minidraw_running;
+globalvar minidraw_running, minidraw_point_deviation;
+minidraw_point_deviation = 0
 
 if variable_global_exists("minidraw_running") {
 	if minidraw_running{
