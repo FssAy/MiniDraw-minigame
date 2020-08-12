@@ -14,13 +14,19 @@ if path_position != 1 {
 		parent.img_current = parent.img_dat[| index]
 		index++
 	}
-	minidraw_point_deviation += point_distance(mouse_x, mouse_y, x, y)/20;
+	
+	var _dist = point_distance(mouse_x, mouse_y, x, y);
+	var _points = _dist/20
+	minidraw_point_deviation += (_points*_points*.5) * _points
+	
+	/* //--- Debug
 	show_debug_message("---------")
 	show_debug_message(path_get_length(parent.path))
 	show_debug_message(distance)
 	show_debug_message(percentage_cur)
 	show_debug_message(percentage_diff*index)
 	show_debug_message(index)
+	*/
 
 	
 } else {
